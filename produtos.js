@@ -16,4 +16,4 @@ let produtos = [{
     }
 ]
 
-exports.module.produtos
+module.exports = produtos;

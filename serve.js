@@ -1,17 +1,17 @@
 const express = require('express');
 const app = express();
-let port = 3000;
+const port = 3000;
 
-import produtos from "/produtos.js"
+const produtos = require('./produtos.js')
 
 
 app.get("/",(req,res)=>{
-    res.send("Funcionando")
+    res.send(produtos)
 
 });
 
 app.use((req,res)=>{
-    res.send("Pagina não encontrada")
+    res.sendFile(__dirname + '/404.html')
 
 });
 
