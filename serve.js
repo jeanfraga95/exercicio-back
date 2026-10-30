@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 let port = 3000;
 
+import produtos from "/produtos.js"
+
 
 app.get("/",(req,res)=>{
     res.send("Funcionando")

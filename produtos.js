@@ -12,6 +12,8 @@ let produtos = [{
         "Placa em placa":450,
         "Mão de obra(cliente trouxe a peça)": 150,
         "formatação":150,
-        
+
     }
 ]
+
+exports.module.produtos
