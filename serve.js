@@ -16,5 +16,5 @@ app.use((req,res)=>{
 });
 
 app.listen(port, ()=>{
-    console.log("Backend Rodando na porta ${port}"+port)
+    console.log(`Backend Rodando na porta ${port}`)
 });
